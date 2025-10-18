@@ -20,6 +20,19 @@ body {
   gap: 18px;
 }
 
+.wrapper button {
+  background: var(--gold);
+  color: var(--purple);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(85,37,131,0.2);
+  transition: box-shadow 200ms ease, background 200ms ease, color 200ms ease;
+}
+
 .GreatestBasketballPlayer {
   font-size: 2rem;
   font-weight: 700;
